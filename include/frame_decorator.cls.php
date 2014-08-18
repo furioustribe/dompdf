@@ -589,6 +589,7 @@ abstract class Frame_Decorator extends Frame {
       $orig_style->margin_top = 0;
       $orig_style->padding_top = 0;
       $orig_style->border_top = 0;
+      $orig_style->page_break_before = "auto";
     }
     
     $this->get_parent()->insert_child_after($split, $this);
